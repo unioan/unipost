@@ -27,8 +27,6 @@ jobs:
           context: .
           push: true
           tags: capitanslow/unipost:latest
-          build-args: |
-            MONGO_URL=${{ secrets.MONGO_URL }}
 
   deploy:
     runs-on: ubuntu-latest
