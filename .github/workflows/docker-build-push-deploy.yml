@@ -38,10 +38,11 @@ jobs:
         uses: appleboy/ssh-action@v0.1.6
         with:
           host: ${{ secrets.VM_HOST }}
+          port: ${{secrets.SSH_PORT}}
           username: ${{ secrets.VM_USER }}
           key: ${{ secrets.VM_SSH_KEY }}
           script: |
-            cd /path/to/your/docker-compose-folder
+            cd /var/www/unipost
             docker-compose pull
             docker-compose down
             docker-compose up -d
