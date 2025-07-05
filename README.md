@@ -3,7 +3,7 @@
 **Unipost** is a simple web application that allows users to create, view, and delete posts after authentication.
 
 🔗 **Live demo:** [https://unipost.wallte.one](https://unipost.wallte.one)  
-*(Login: `admin` | Password: `admin`)*
+(Login: `admin` | Password: `admin`)
 
 
 
